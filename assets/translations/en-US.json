@@ -1,0 +1,33 @@
+{
+  "contract":"Contract",
+  "history":"History",
+  "new_contract":"New",
+  "saved":"Saved",
+  "profile":"Profile",
+  "invoice":"Invoice",
+  "app_bar_contract":"Contracts",
+  "mo": "Mo",
+  "tu": "Tu",
+  "we": "We",
+  "th": "Th",
+  "fr": "Fr",
+  "sa":"Sa",
+  "dateOfBirth": "Date of birth:",
+  "phoneNumber": "Phone number:",
+  "email": "E-mail:",
+  "create": "what do you want to create?",
+  "fish": "FISh:  ",
+  "amount": "Amount:  ",
+  "lastInvoice": "Last invoice:  ",
+  "NumberOfInvoice": "Number Of invoice:  ",
+  "noContract": "No contract are made",
+  "noHistory": "No history for this period",
+
+  "face": "Face",
+  "name": "Fisher's full name",
+  "adress":"Address of the organization",
+  "paid": "Status of the contract",
+  "save": "Save contract",
+  "newContract": "New Contract"
+
+}
