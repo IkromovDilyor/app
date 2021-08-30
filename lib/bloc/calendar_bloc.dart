@@ -7,7 +7,7 @@ import 'package:ibilling/model/model.dart';
 import 'package:ibilling/model/mycolors.dart';
 import 'package:jiffy/jiffy.dart';
 import 'package:meta/meta.dart';
-import 'package:ibilling/model/invoice_date.dart';
+import 'package:ibilling/model/lists_date.dart';
 
 part 'calendar_event.dart';
 

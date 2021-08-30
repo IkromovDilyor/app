@@ -70,7 +70,7 @@ void _change(){
                    // crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Padding(
-                        padding: const EdgeInsets.all(0),
+                        padding: const EdgeInsets.all(20),
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(12),
                           child: SvgPicture.asset(

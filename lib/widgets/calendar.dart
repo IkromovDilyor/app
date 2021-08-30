@@ -4,7 +4,6 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:ibilling/bloc/calendar_bloc.dart';
-import 'package:ibilling/model/translations/locale_keys.g.dart';
 import 'package:jiffy/jiffy.dart';
 import 'package:easy_localization/easy_localization.dart';
 
@@ -13,28 +12,13 @@ class Calendar extends StatelessWidget {
   int weekNumber = 0; //To Track Scroll of ListView
   List<String> listOfDays = [
     "mo","tu","we","th","fr","sa"
-
-    // LocaleKeys.mo.tr(),
-    // LocaleKeys.tu.tr(),
-    // LocaleKeys.we.tr(),
-    // LocaleKeys.th.tr(),
-    // LocaleKeys.fr.tr(),
-    // LocaleKeys.sa.tr(),
-    // "Mo",
-    // "Tu",
-    // "We",
-    // "Th",
-    // "Fr",
-    // "Sa",
   ];
 
   List selectDate(int weekNumber) {
     return List.generate(
       6,
       (index) => Jiffy()
-          .add(weeks: weekNumber).subtract(days: 2)
-          .add(days: index)
-          .dateTime,
+          .add(weeks: weekNumber).add(days: index).dateTime,
     );
   }
 

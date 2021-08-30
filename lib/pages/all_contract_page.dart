@@ -16,6 +16,7 @@ class AllContractPage extends StatelessWidget {
 
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Colors.black,
         appBar: PreferredSize(
           child: Container(
             padding: EdgeInsets.symmetric(horizontal: 20, vertical: 14),
@@ -25,9 +26,10 @@ class AllContractPage extends StatelessWidget {
               children: [
                 Row(
                   children: [
-                    Image.asset('assets/icons/all_contract_app_bar.png'),
+                    SvgPicture.asset('assets/icons/icon_infos_const.svg'),
+
                     SizedBox(width: 12,),
-                    Text('N', style: TextStyle(fontSize:18, fontWeight: FontWeight.w500, color: Colors.white,fontFamily: "Ubuntu"),)
+                    Text('№ 153', style: TextStyle(fontSize:18, fontWeight: FontWeight.w500, color: Colors.white,fontFamily: "Ubuntu"),)
                   ],
                 ),
                 Row(
@@ -42,6 +44,7 @@ class AllContractPage extends StatelessWidget {
           preferredSize: Size.fromHeight(51),
         ),
         body: Container(
+          color: Colors.black,
           margin: EdgeInsets.symmetric(horizontal: 16,vertical: 12),
           child:
               ListView(

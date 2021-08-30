@@ -32,7 +32,8 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: List.generate(
             Constants.bottomNavBarItems.length,
-            (index) => BottomNavBarItem(
+            (index) =>
+                BottomNavBarItem(
               bottomNavBarItemModel: Constants.bottomNavBarItems[index],
               onTap: () {
                 if (index == 2) {
