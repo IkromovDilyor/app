@@ -18,7 +18,7 @@ class Calendar extends StatelessWidget {
     return List.generate(
       6,
       (index) => Jiffy()
-          .add(weeks: weekNumber).add(days: index).dateTime,
+          .add(weeks: weekNumber).add(days: index).subtract(days: Jiffy().day-2).dateTime,
     );
   }
 
